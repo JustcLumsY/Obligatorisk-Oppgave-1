@@ -1,0 +1,35 @@
+body {
+    margin: 40%;
+    padding: 5%;
+    background-color: rgb(68, 128, 156);
+    
+}
+
+button {
+    color: rgb(3, 3, 5);
+    border-style: groove;
+    border-color: rgb(10, 11, 17);
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    
+
+    /*Rounded Corners*/
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  
+  /*Transition*/
+  -webkit-transition: All 0.5s ease;
+  -moz-transition: All 0.5s ease;
+  -o-transition: All 0.5s ease;
+  -ms-transition: All 0.5s ease;
+  transition: All 0.5s ease;
+  
+  
+}
+
+button:hover {
+    background-color: #00e20b;
+  }
